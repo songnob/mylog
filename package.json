@@ -1,0 +1,29 @@
+{
+  "name": "mylog",
+  "version": "1.0.0",
+  "description": "winston daily logging preconfiguration",
+  "main": "mylog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songnob/mylog.git"
+  },
+  "keywords": [
+    "winston",
+    "daily",
+    "log"
+  ],
+  "author": "ngbaoson@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songnob/mylog/issues"
+  },
+  "homepage": "https://github.com/songnob/mylog#readme",
+  "dependencies": {
+    "mkdirp": "0.5.1",
+    "winston": "2.3.1",
+    "winston-daily-rotate-file": "1.4.6"
+  }
+}
