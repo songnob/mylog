@@ -1,6 +1,6 @@
 {
   "name": "daily-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "winston daily logging preconfiguration",
   "main": "daily-log.js",
   "scripts": {

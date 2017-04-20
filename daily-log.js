@@ -10,9 +10,14 @@ const path    = require('path');
 const mkdir   = require('mkdirp');
 const winston = require('winston');
 const mode    = process.env.NODE_ENV || 'development';
-const info    = require(cwd + '/package.json');
 const logDir  = cwd + '/logs';
 
+let info = {name: 'log'};
+try {
+   info = require(cwd + '/package.json');
+} catch (e) {
+   //ignore
+}
 // create log directory if not existing
 mkdir.mkdirp(logDir);
 
