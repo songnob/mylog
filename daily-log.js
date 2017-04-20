@@ -45,9 +45,9 @@ const log = new winston.Logger({
 
 if (mode === 'production') {
    log.remove(winston.transports.Console);
-   log.info('mylog.js - Production mode, remove console transport');
+   log.info('daily-log.js - Production mode, remove console transport');
 } else {
-   log.info('mylog.js - Development mode, use both transport');
+   log.info('daily-log.js - Development mode, use both transport');
 }
 
 const Log = function Log(tag, show) {

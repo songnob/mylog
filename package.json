@@ -1,8 +1,8 @@
 {
-  "name": "mylog",
-  "version": "1.0.0",
+  "name": "daily-log",
+  "version": "1.0.1",
   "description": "winston daily logging preconfiguration",
-  "main": "mylog.js",
+  "main": "daily-log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
